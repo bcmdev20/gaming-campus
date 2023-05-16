@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(./ressources/font/Montserrat-VariableFont_wght.ttf);
+  src: url(./font/Montserrat-Italic-VariableFont_wght.ttf);
 }
 * {
   font-family: Montserrat, sans-serif;
@@ -38,7 +38,7 @@ nav li {
   padding: 8px 16px;
 }
 .main-header {
-  background: url(./ressources/assets/img/bg.jpg) fixed center/cover;
+  background: url(assets/img/bg.jpg) fixed center/cover;
   color: white;
   padding: 150px;
 }
@@ -247,14 +247,14 @@ footer {
   background: rgb(15, 15, 15);
   padding: 25px;
 }
-footer h3{
+footer h3 {
   color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   margin-bottom: 32px;
 }
-footer ul{
+footer ul {
   display: flex;
   justify-content: space-evenly;
   max-width: 1000px;
@@ -263,8 +263,8 @@ footer ul{
 
 /* **********MEDIA QUERIES*********** */
 
-@media screen and (max-width:814px) {
-  nav{
+@media screen and (max-width: 814px) {
+  nav {
     font-size: 0.5rem;
   }
 }
