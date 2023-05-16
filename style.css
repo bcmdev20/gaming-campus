@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./ressources/font/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 20px 0;
+  cursor: pointer;
+}
+#language {
+  background: rgb(172, 169, 169);
+  border-radius: 50px;
+  padding: 8px 16px;
+}
+.main-header {
+  background: url(./ressources/assets/img/bg.jpg) fixed center/cover;
+  color: white;
+  padding: 150px;
+}
+.main-header button {
+  padding: 15px;
+  letter-spacing: 2px;
+}
+.main-header i {
+  transform: translateX(5px);
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 50px 0 55px;
+}
+button {
+  color: #ffffff;
+  border: 1px solid whitesmoke;
+  background: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-text {
+  max-width: 1100px;
+  padding: 45px 0;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 34px;
+}
+.icon-part {
+  background: rgb(15, 15, 15);
+  color: whitesmoke;
+  padding: 65px 0;
+}
+.icon-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.lip-logo {
+  margin-bottom: 30px;
+}
+.icon-part h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.icon-part-container p {
+  width: 80%;
+  margin: 10px auto 20px;
+}
+.icon-part-container button {
+  padding: 9px 30px;
+  font-size: 0.7rem;
+}
+.news-part {
+  padding: 80px 0 45px;
+  background: whitesmoke;
+}
+.header-news {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.left-part {
+  line-height: 30px;
+}
+.left-part h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: left;
+}
+.left-part p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: left;
+}
+.right-part button {
+  color: black;
+  padding: 10px 20px;
+  border-color: black;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.right-part i {
+  transform: translateX(5px);
+}
+.main-news-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 45px auto;
+}
+.main-news-container > div {
+  position: relative;
+  max-width: 23%;
+}
+.mn-pic img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px #888;
+}
+.main-news-container h4 {
+  margin: 15px 0;
+  text-align: left;
+}
+.main-news-container p {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-bottom: 45px;
+}
+.link {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+}
+.contact {
+  padding: 80px 0 45px;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.contact-list {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  position: relative;
+}
+.contact-list:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background: rgb(235, 235, 235);
+  bottom: -40px;
+}
+.contact-list .list {
+  width: 24%;
+  text-align: left;
+}
+#contact-img img {
+  display: block;
+  margin: 0 auto;
+}
+.contact-list h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.infos-p li {
+  margin: 15px 0;
+}
+.list p {
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.list h6 {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.list .network {
+  margin: 20px 0 8px;
+}
+.footer-logos i {
+  font-size: 0.8rem;
+  margin: 0 12px 30px 0;
+}
+p.copyright {
+  margin: 0;
+}
+.contact-medias {
+  padding: 60px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+.medias-text {
+  text-align: left;
+  width: 30%;
+}
+.medias-text h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.medias-text p {
+  font-size: 0.8rem;
+}
+.medias-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+footer {
+  background: rgb(15, 15, 15);
+  padding: 25px;
+}
+footer h3{
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* **********MEDIA QUERIES*********** */
+
+@media screen and (max-width:814px) {
+  nav{
+    font-size: 0.5rem;
+  }
+}
